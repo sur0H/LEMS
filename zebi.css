@@ -1,0 +1,167 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* En-tête principal */
+.main-header {
+    background-color: #F58233; /* Vert */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+   
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul li {
+    margin: 0 20px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section héroïque */
+.hero-section {
+    background-image: url('https://via.placeholder.com/1500x500'); /* Remplacez cette URL par une image en lien avec les produits naturels */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url(freepik__upload__13534.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color:#ffffff ;
+}
+
+.btn-primary {
+    background-color: #F58233; /* Jaune-orange */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #F58233; /* Orange plus foncé */
+}
+
+/* Section À propos */
+.about-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    opacity: 50%;
+    
+}
+
+.about-section h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Section Services */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url(freepik__upload__13534.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.services-section h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.service-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    width: calc(45% - 40px);
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1em;
+}
+
+/* Section Projets */
+.projects-section {
+    padding: 50px 20px;
+    background-color: #F58233;
+    text-align: center;
+}
+
+.projects-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Pied de page */
+.main-footer {
+    background-color: #71D0A6; /* Vert */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.main-footer a {
+    color: #F58233;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
+
+.white {
+    color: #ffffff;
+}
